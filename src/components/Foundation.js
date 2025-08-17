@@ -64,7 +64,7 @@ export default function Foundation() {
             <h2 className="text-lg font-bold">Dernières traductions</h2>
             <button
                 className="text-sm underline hover:text-gray-200"
-                onClick={() => navigate("/traductions")} // mettre la route correspondante
+                onClick={() => navigate("/traductions-news")} // mettre la route correspondante
             >
                 Dernières traductions
             </button>
@@ -88,7 +88,7 @@ export default function Foundation() {
             <h2 className="text-lg font-bold">Dernier SCP ajouté</h2>
             <button
                 className="text-sm underline hover:text-gray-200"
-                onClick={() => navigate("/scp")} // mettre la route correspondante
+                onClick={() => navigate("/scp-news")} // mettre la route correspondante
             >
                 Dernières publications
             </button>

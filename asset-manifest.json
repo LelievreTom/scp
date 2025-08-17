@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/scp/static/css/main.49825c40.css",
-    "main.js": "/scp/static/js/main.f305fb68.js",
+    "main.css": "/scp/static/css/main.5b4725d6.css",
+    "main.js": "/scp/static/js/main.6634159f.js",
     "static/js/453.9617fefb.chunk.js": "/scp/static/js/453.9617fefb.chunk.js",
     "static/media/scp-logo.png": "/scp/static/media/scp-logo.98eaf11f6f2dbae695e7.png",
     "index.html": "/scp/index.html",
-    "main.49825c40.css.map": "/scp/static/css/main.49825c40.css.map",
-    "main.f305fb68.js.map": "/scp/static/js/main.f305fb68.js.map",
+    "main.5b4725d6.css.map": "/scp/static/css/main.5b4725d6.css.map",
+    "main.6634159f.js.map": "/scp/static/js/main.6634159f.js.map",
     "453.9617fefb.chunk.js.map": "/scp/static/js/453.9617fefb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49825c40.css",
-    "static/js/main.f305fb68.js"
+    "static/css/main.5b4725d6.css",
+    "static/js/main.6634159f.js"
   ]
 }

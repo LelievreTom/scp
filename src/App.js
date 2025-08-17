@@ -1,14 +1,18 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Foundation from "./components/Foundation";
 
-export default function App() {
+function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
-        <Route path="/scp" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/foundation" element={<Foundation />} />
+        <Route path="/traductions" element={<div>Page Traductions</div>} />
+        <Route path="/scp" element={<div>Page SCP</div>} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
+
+export default App;

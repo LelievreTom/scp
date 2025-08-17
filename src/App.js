@@ -6,10 +6,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/scp" element={<Home />} />
         <Route path="/foundation" element={<Foundation />} />
-        <Route path="/traductions" element={<div>Page Traductions</div>} />
-        <Route path="/scp" element={<div>Page SCP</div>} />
+        <Route path="/traductions-news" element={<div>Page Traductions</div>} />
+        <Route path="/scp-news" element={<div>Page SCP</div>} />
       </Routes>
     </BrowserRouter>
   );

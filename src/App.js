@@ -6,7 +6,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/scp" element={<Home />} />
         <Route path="/foundation" element={<Foundation />} />
       </Routes>
     </Router>

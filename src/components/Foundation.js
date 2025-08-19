@@ -56,8 +56,8 @@ export default function Foundation() {
         <section className="flex flex-col md:flex-row justify-center gap-12">
         {/* Nouvelles traductions */}
         <div
-            className="bg-yellow-100/30 rounded shadow-md overflow-hidden"
-            style={{ width: '400px', height: '300px' }} // taille personnalisée
+            className="bg-yellow-100/30 rounded shadow-md overflow-hidden 
+             w-full sm:w-96 h-64 sm:h-72"
         >
             {/* Mini-header */}
             <div className="flex justify-between items-center bg-red-800 text-white px-4 py-2">

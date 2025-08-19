@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Foundation from "./pages/Foundation";
 import Clicker from "./pages/Clicker";
@@ -6,7 +6,7 @@ import ClickerAuth from "./pages/ClickerAuth";
 
 function App() {
   return (
-    <BrowserRouter basename="/scp">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/foundation" element={<Foundation />} />
@@ -15,7 +15,7 @@ function App() {
         <Route path="/clicker" element={<Clicker />} />
         <Route path="/clickerAuth" element={<ClickerAuth />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

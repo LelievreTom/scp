@@ -6,9 +6,9 @@ import ClickerAuth from "./pages/ClickerAuth";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/scp">
       <Routes>
-        <Route path="/scp" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/foundation" element={<Foundation />} />
         <Route path="/traductions-news" element={<div>Page Traductions</div>} />
         <Route path="/scp-news" element={<div>Page SCP</div>} />

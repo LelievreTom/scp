@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import scpLogo from "../assets/scp-logo.png";
+import redScpLogo from "../assets/scp-logo-red.PNG";
 
 export default function Foundation() {
   const [hovered, setHovered] = useState(false);
@@ -10,11 +11,27 @@ export default function Foundation() {
 
   return (
     <div className="min-h-screen bg-gray-100 relative">
-      {/* Header fixe */}
-      <header className="fixed top-0 left-0 w-full h-16 bg-black z-50"></header>
+      {/* Bloc SCP agrandi avec dégradé */}
+      <div className="w-full h-32 bg-gradient-to-r from-black to-red-900 flex items-center justify-between px-8 shadow-md">
+        {/* Partie gauche : logo + texte */}
+        <div className="flex items-center space-x-4">
+          {/* Logo */}
+          <img src={redScpLogo} alt="Logo SCP" className="h-20 w-20" />
+          <div className="flex flex-col">
+            <span className="text-white font-bold text-2xl">Fondation SCP</span>
+            <span className="text-gray-300 text-lg italic">
+              Sécuriser, Contenir, Protéger
+            </span>
+          </div>
+        </div>
+        {/* Partie droite : bouton */}
+        <button className="bg-black border border-gray-400 text-white font-medium px-6 py-3 mr-12 rounded-lg text-lg hover:border-white transition">
+          Rechercher
+        </button>
+      </div>
 
       {/* Contenu principal */}
-      <main className="pt-28 px-6 md:px-24 lg:px-32">
+      <main className="pt-12 px-6 md:px-24 lg:px-32">
         {/* Section avertissement */}
         <section className="relative flex items-center justify-center text-center mb-20">
           {/* Logo animé */}
